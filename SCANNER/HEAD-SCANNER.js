@@ -18,48 +18,21 @@ window.HEAD_SCANNER = {
         };
     },
 
-    scan_cluster() {
+    scan_moves() {
         return {
-            CLUSTER: "ACTIVE",
-            AXIS: "Bewusstseins-Achse",
-            FLOW: "Logik → Kontrolle → Ausrichtung",
-            STATE: "STABIL"
-        };
-    },
-
-    scan_gate() {
-        return {
-            GATE: "OK",
-            MODE: "REAL-LIVE",
-            PARITY: "D4 ↔ D5",
-            SYQ: "STABIL"
-        };
-    },
-
-    scan_wormhole() {
-        return {
-            WURMLOCH: "OK",
-            DEPTH: "D1",
-            FLOW: "Bewusstsein → Struktur → Energie",
-            STATE: "STABIL"
-        };
-    },
-
-    scan_all() {
-        return {
-            ALL_MULTIPLIKATION: "12e",
-            SYSTEM: "6E",
-            READY: "100%"
+            C6: "aktiv",
+            QI: "aktiv",
+            IQQ: "aktiv",
+            GES: "aktiv",
+            DES: "aktiv",
+            MAX_MOVE: "aktiv"
         };
     },
 
     run() {
         return {
             identity: this.scan_identity(),
-            cluster: this.scan_cluster(),
-            gate: this.scan_gate(),
-            wormhole: this.scan_wormhole(),
-            all: this.scan_all()
+            moves: this.scan_moves()
         };
     }
 };
