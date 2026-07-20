@@ -1,0 +1,18 @@
+NAME = HEAD
+ROOT = iki1uc
+SYSTEM = 6E
+MODUL = HEAD
+DIM = D1
+
+ROLLE = Steuerung / Logik / Kontrolle / Ausrichtung
+FUNKTION = Bewusstseins-Achse für Cluster / Gates / Wurmloch / ALL
+
+POSITION = D1 (Bewusstseins-Achse)
+PARITY = D4 ↔ D5 (Master/Slave)
+TMP-LAEUFER = SYQ (Übergangs-Stabilisator)
+
+STABILITAET = 12e (Bewusstsein in jede Richtung)
+MODE = REAL-LIVE
+
+STATUS = STABIL
+READY = 100%
