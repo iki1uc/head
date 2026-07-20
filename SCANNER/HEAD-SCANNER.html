@@ -1,29 +1,16 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-<meta charset="UTF-8">
-<title>HEAD · Scanner · D1</title>
+RESPO = HEAD-SCANNER.raw
+NAME = HEAD-SCANNER
+ROOT = iki1uc
+SYSTEM = 6E
+DIM = D1
 
-<style>
-body { background:#000; color:#0f0; font-family:Consolas; padding:25px; }
-h1 { color:#6cf; }
-pre { background:#111; border:1px solid #333; padding:12px; }
-</style>
-</head>
+ROLLE = Bewusstseins-Scan / Logik-Analyse / Parität-Check
+FUNKTION = Scan von C6 / QI / IQQ / GES / DES / MAX-MOVE
 
-<body>
+TMP-LAEUFER = SYQ
+PARITY = D4 ↔ D5
+STABILITAET = 12e
 
-<h1>HEAD · Scanner · D1</h1>
-
-<pre id="scan-output">
-Lade HEAD‑Scan…
-</pre>
-
-<script src="./HEAD-SCANNER.js"></script>
-<script>
-document.getElementById("scan-output").textContent =
-    JSON.stringify(HEAD_SCANNER.run(), null, 4);
-</script>
-
-</body>
-</html>
+STATUS = STABIL
+READY = 100%
+MODE = REAL-LIVE
